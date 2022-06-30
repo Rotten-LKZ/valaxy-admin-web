@@ -1,3 +1,6 @@
 [submodule "src"]
 	path = src
 	url = git@github.com:Rotten-LKZ/valaxy-admin.git
+[submodule "apis/server"]
+	path = apis/server
+	url = git@github.com:Rotten-LKZ/valaxy-admin-server-api.git
