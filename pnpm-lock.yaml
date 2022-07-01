@@ -11,6 +11,7 @@ specifiers:
   element-plus: ^2.2.6
   eslint: ^8.18.0
   js-cookie: ^3.0.1
+  md-editor-v3: ^2.2.0
   npm-run-all: ^4.1.5
   pinia: ^2.0.14
   sass: ^1.53.0
@@ -27,6 +28,7 @@ dependencies:
   '@vueuse/core': 8.7.5_vue@3.2.37
   element-plus: 2.2.6_vue@3.2.37
   js-cookie: 3.0.1
+  md-editor-v3: 2.2.0
   pinia: 2.0.14_j6bzmzd4ujpabbp5objtwxyjp4
   vue: 3.2.37
   vue-router: 4.0.16_vue@3.2.37
@@ -295,6 +297,10 @@ packages:
 
   /@types/lodash/4.14.182:
     resolution: {integrity: sha512-/THyiqyQAP9AfARo4pF+aCGcyiQ94tX/Is2I7HofNRqoYLgN1PBoOWu2/zTA5zMxzP5EFutMtWtGAFRKUe961Q==}
+    dev: false
+
+  /@types/marked/4.0.3:
+    resolution: {integrity: sha512-HnMWQkLJEf/PnxZIfbm0yGJRRZYYMhb++O9M36UCTA9z53uPvVoSlAwJr3XOpDEryb7Hwl1qAx/MV6YIW1RXxg==}
     dev: false
 
   /@types/mdast/3.0.10:
@@ -2195,6 +2201,13 @@ packages:
     dependencies:
       sourcemap-codec: 1.4.8
     dev: true
+
+  /md-editor-v3/2.2.0:
+    resolution: {integrity: sha512-HedYbNnYSaF3Pc9xIccEP9di+vCYim7f3oy0RpuORU1nAcEP7G7h4RUjjbXPpOMkF0JS0T9Ghn8c1o3d/GS49Q==}
+    engines: {node: '>=12.0.0'}
+    dependencies:
+      '@types/marked': 4.0.3
+    dev: false
 
   /mdast-util-from-markdown/0.8.5:
     resolution: {integrity: sha512-2hkTXtYYnr+NubD/g6KGBS/0mFmBcifAsI0yIWRiRo0PjVs6SSOSOdtzbp6kSGnShDN6G5aWZpKQ2lWRy27mWQ==}
