@@ -4,7 +4,7 @@ import image from './server/image'
 
 const config: ApiConfig = {
   apiEnv: 'SERVER',
-  set: (key, value) => {
+  set: async (key, value) => {
     localStorage.setItem(key, value)
   },
   get: async (key) => {
